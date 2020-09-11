@@ -11,7 +11,7 @@ variables:
 
 steps:
 - script: echo 'Hello shell'
-- displayName: 'Echo from shell env'
+  displayName: 'Echo from shell env'
 
 - task: UseDotNet@2
   displayName: 'Use .NET Core SDK 3.1.300'
