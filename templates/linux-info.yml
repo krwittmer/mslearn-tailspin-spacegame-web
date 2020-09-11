@@ -1,0 +1,8 @@
+steps:
+
+- script: echo 'Hello shell'
+  displayName: 'Echo from shell env'
+- script: uname -r
+  displayName: 'Show uname info from shell env'
+- script: lsb_release -v -d
+  displayName: 'Display Linux Standard Base info'
